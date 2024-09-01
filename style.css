@@ -26,6 +26,8 @@ nav {
 }
 .nav-list ul {
   padding-right: 2rem;
+  text-align: center;
+  background: aliceblue;
 }
 
 .nav-item {
