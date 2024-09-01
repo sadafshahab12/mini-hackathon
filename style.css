@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Space Grotesk", sans-serif;
+}
+.html {
+  font-size: 62.5%;
+}
+.logo {
+  width: 2.6rem;
+  margin-left: 5rem;
+}
+nav {
+  height: 5rem;
+  background: #fff !important;
+}
+.navbar-brand {
+  font-size: 2rem;
+  padding-left: 2rem;
+  font-weight: 600;
+}
+.nav-list {
+  height: 5rem;
+  line-height: 5rem;
+}
+.nav-list ul {
+  padding-right: 2rem;
+}
+
+.nav-item {
+  padding: 0 2rem;
+}
+.nav-item a {
+  font-size: 1.3rem;
+  padding: 0 1.5rem;
+
+  font-weight: 400;
+}
+.nav-btn {
+  padding-right: 8rem;
+}
+.nav-btn button {
+  padding: 1rem 2.5rem;
+  border-radius: 1.2rem;
+  font-size: 1.3rem;
+}
+.left-side {
+  padding-left: 10rem;
+  padding-top: 6rem;
+  padding-bottom: 7rem;
+}
+.left-side h1 {
+  font-size: 5rem;
+  width: 46rem;
+  padding-bottom: 1.5rem;
+}
+.left-side p {
+  font-size: 2rem;
+  width: 46rem;
+  padding-bottom: 2rem;
+}
+.left-side button {
+  padding: 1rem 2.5rem;
+  font-size: 1.5rem;
+  border-radius: 1.2rem;
+}
+
+.right-side {
+  padding-right: 10rem;
+  padding-top: 6rem;
+  padding-bottom: 7rem;
+}
+.site-img {
+  padding: 0 10rem;
+}
+.service-container {
+  padding-top: 10rem;
+  padding-left: 10rem;
+}
+.service-h h2 {
+  padding: 0.5rem;
+  background-color: #b9ff66;
+  border-radius: 0.5rem;
+  width: 10rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.service-p p {
+  font-size: 1.5rem;
+  width: 49rem;
+}
+
+.service-card {
+  border: 1px solid #000;
+  border-radius: 4rem;
+  box-shadow: 0 0.5rem 0 #191a23;
+  padding: 2rem; 
+  width: 45rem;
+}
+.service-card-h1 {
+  padding: 0.5rem;
+  background-color: #b9ff66;
+  border-radius: 0.5rem;
+  width: 16rem;
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0;
+}
+.service-card-h2 {
+  padding: 0.5rem;
+  background-color: #b9ff66;
+  border-radius: 0.5rem;
+  width: 13rem;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 8rem;
+}
+.service-c-bg {
+    background-color: #b9ff66;
+}
+.card2{
+    background-color: #fff;
+}
+.learn {
+  display: flex;
+
+  align-items: center;
+}
+.learn img {
+  width: 3rem;
+  height: 3rem;
+}
+.learn p {
+  font-size: 1.2rem;
+  padding-top: 0.8rem;
+  padding-left: 2rem;
+}
+.left-card-content {
+  padding-left: 4rem;
+}
+.right-card-content img {
+  padding-right: 2rem;
+  width: 20rem;
+}
+.service-card-cont {
+  padding: 0 12rem;
+}
+.work-h h2 {
+    padding: 0.5rem;
+    background-color: #b9ff66;
+    border-radius: 0.5rem;
+    width: 22rem;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .work-p p {
+    font-size: 1.5rem;
+    width: 25rem;
+  }
+  .accordion1{
+    padding-top: 5rem;
+  }
+  .contact-h h2 {
+    padding: 0.5rem;
+    background-color: #b9ff66;
+    border-radius: 0.5rem;
+    width: 12rem;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .contact-p p {
+    font-size: 1.5rem;
+    width: 26rem;
+  }
+  .contact-form{
+    padding-top: 5rem;
+    padding-left: 10rem;
+  }
+  .form-check{
+
+      padding-left: 5rem;
+  }
+  .form-check label{
+    font-size: 1.2rem;
+  }
+.form-check-input{
+    font-size: 2.2rem;
+    padding: 0.1rem;
+    
+}
+.form-check-input:focus{
+    font-size: 2.2rem;
+    background-color:#b9ff66 ;
+box-shadow: none;
+border: 1px solid black;
+}
+.radios{
+    display: flex;
+    align-items: center;
+}
+.radios label{
+    padding-top: 0.8rem;
+}
+.name{
+    padding-top: 5rem;
+}
+form label{
+    color: #000;
+    font-size: 1.2rem;
+}
+form input{
+padding: 1.5rem;
+border-radius: 1.3rem;
+}
+.msg{
+    background-color: #000;
+    border-radius: 1.5rem;
+    font-size: 1.3rem;
+    border: none;
+    outline: none;
+}
+.msg:focus{
+    background-color: #000;
+    border-radius: 1.5rem;
+    font-size: 1.3rem;
+    border: none;
+}
+.msg:hover{
+    background-color: #000;
+
+}
+.mb-3 input {
+    border-radius: 1.5rem;
+    padding: 2rem;
+    border: 1px solid black;
+}
+.form-floating textarea{
+    border-radius: 1.5rem;
+    padding: 2rem;
+    border: 1px solid black;
+}
+.form-img{
+
+    padding-left: 18rem;
+}
+footer{
+    margin-top: 10rem;
+    background-color: #000;
+    color:#fff;
+}
+.footer-nav{
+    background-color: #000!important;
+    color:#fff!important;
+}
+.footer-nav a{
+    color:#fff!important;
+}
+.foot-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+
